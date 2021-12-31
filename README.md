@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 For this technical analysis we looked at Miles Per Gallon (mpg) and the effect that five additional variables had on it; Vehicle Length, Vehicle Weight, Spoiler Angle, Ground Clearance and AWD. We used linear regression and summary statistics to get the following output of the data: 
-![mpg Linear Regression and Summary Statistics](/images/mpg_output.png)
+![mpg Linear Regression and Summary Statistics](https://github.com/jmmadson/MechaCar_Statistical_Analysis/blob/main/images/mpg_output.png?raw=true)
 
 From these summary statistics we can see that the Vehicle Weight, Vehicle Length and Ground Clearance provide a non-random amount of variance to the mpg values as they have a p value of less than .05. This implies they have a significant impact on the MechaCar prototype miles per gallon. The other three variables all had a higher than .05 p Value, meaning they are more likely to provide random amounts of variance to the mpg. 
 
@@ -17,10 +17,10 @@ In this technical analysis we were looking at a dataset containing the results f
 
 Our results for the total data set were as follows:  
 
-![Total PSI Summary](/images/mpg_output.png)
+![Total PSI Summary](https://github.com/jmmadson/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png?raw=true)
 
 For the individual lots, overall the lots produced consistent results. 
-![Total PSI Summary by Lot](/images/mpg_output.png)
+![Total PSI Summary by Lot](https://github.com/jmmadson/MechaCar_Statistical_Analysis/blob/main/images/Lot_Summary.png?raw=true)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. When looking at the PSI across all lots (in the total PSI Summary above), the total PSI Variance is 62.29, which is well under the not to exceed amount of 100 psi. However, when breaking it down by lot individually, only lots One and Two fall within that category. Lot three is well over 100, with a PSI Variance of 170.29. This is skewing the data, pulling the mean for the other two lots much higher. 
 
@@ -33,12 +33,12 @@ In this technical analysis, we were comparing the statistical difference between
 <strong>Alternative Hypothesis:</strong> That the presumed population PSI is statistically different than the sample
 
 The results for the total population T-Test are as follows: 
-![Total Population PSI T-Test](/images/mpg_output.png)
+![Total Population PSI T-Test](https://github.com/jmmadson/MechaCar_Statistical_Analysis/blob/main/images/All_Lot_TTests.png?raw=true)
 
 Looking at the results of the full population T-Test above the true mean of the data is 1498.78. The p-Value for the total population is 0.06, which is larger than the significance value of 0.05, meaning there is not enough evidence to reject the null hypothesis. To further explain, this result implies that all three of the manufacturing lots are statistically similar to the presumed population mean of 1500 when looking at the group as a whole. 
 
 The results for the three individual lots are as follows: 
-![Individual Lot PSI T-Test](/images/mpg_output.png)
+![Individual Lot PSI T-Test](https://github.com/jmmadson/MechaCar_Statistical_Analysis/blob/main/images/Individual_Lot_TTests.png?raw=true)
 
 Looking at the individual lot results we can see that all three lots have a p value that is larger than the common significance value of .05, meaning we do not have enough evidence to reject the null hypothesis for any of the lots. That further means that there is no statistical difference between the full population mean of 1,500 PSI and the sample population means of the lots. 
 
