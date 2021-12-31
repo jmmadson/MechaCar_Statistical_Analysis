@@ -60,9 +60,10 @@ To complete this study, I would need the following data collected over the last 
 </ul>
 
 ### Hypothesis: 
-For the purposes of this study I have defined the two Hypothesis to be tested as: 
-Null Hypothesis: MechaCars average safety rating is not statistically different than the average of the total population (all car manufacturers)
-Alternative Hypothesis: MechaCars average safety rating is statistically different than the average of the total population (all car manufacturers)
+For the purposes of this study I have defined the two Hypothesis to be tested as: <br>
+<strong>Null Hypothesis:</strong> MechaCars average safety rating is not statistically different than the average of the total population (all car manufacturers)
+<br>
+<strong>Alternative Hypothesis:</strong> MechaCars average safety rating is statistically different than the average of the total population (all car manufacturers)
 
 ### Statistical Test Type: 
 To complete this study as outlined above with the data and metrics, I would run multiple One-Sample T-Tests to compare the average safety ratings of Manufacturer and Individual Car Models against the total population average. This test would allow me to show whether MechaCars had a higher safety rating as compared to competition. 
