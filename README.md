@@ -53,10 +53,11 @@ In this study I will be comparing the average safety rating as grouped by vehicl
 
 ### Data: 
 To complete this study, I would need the following data collected over the last two years:
-Car Manufacturer (MechaCar, Competitor Car)
-Car Type (Individual vehicle models)
-Safety Feature Rating
-
+<ul>
+<li>Car Manufacturer (MechaCar, Competitor Car)</li>
+<li>Car Type (Individual vehicle models)</li>
+<li>Safety Feature Rating</li>
+</ul>
 
 ### Hypothesis: 
 For the purposes of this study I have defined the two Hypothesis to be tested as: 
