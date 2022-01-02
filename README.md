@@ -8,7 +8,7 @@ From these summary statistics we can see that the Vehicle Weight, Vehicle Length
 
 We can also see from the linear regression we performed that the slope of this linear model is not zero by looking at the value for the model, which is 5.35e-11. This provides sufficient evidence to reject the null hypothesis.  
 
-The linear model analysis can effectively predict mpg of MechaCar prototypes as determined by the R-squared value of 0.7149 for this model. This shows that the regression model predicts 71% of the mpg acurately. 
+The linear model analysis can effectively predict mpg of MechaCar prototypes as determined by the R-squared value of 0.7149 for this model. The regression model shows that the independant variables can explain 71% of the variance in the dependant variable (mpg), allowing us to more accurately predict future results using those variables. 
 
 
 ## Summary Statistics on Suspension Coils
@@ -43,7 +43,7 @@ Looking at the results of the full population T-Test above the true mean of the 
 The results for the three individual lots are as follows: 
 ![Individual Lot PSI T-Test](https://github.com/jmmadson/MechaCar_Statistical_Analysis/blob/main/images/Individual_Lot_TTests.png?raw=true)
 
-Looking at the individual lot results we can see that all three lots have a p value that is larger than the common significance value of .05, meaning we do not have enough evidence to reject the null hypothesis for any of the lots. That further means that there is no statistical difference between the full population mean of 1,500 PSI and the sample population means of the lots. 
+Looking at the individual lot results we can see that lots one and two ave a p value that is larger than the common significance value of .05, meaning we do not have enough evidence to reject the null hypothesis for those two lots. That further means that there is no statistical difference between the full population mean of 1,500 PSI and the sample population means of the first and second lots. However, the third lot has a p value of .04, which is smaller than the significance value meaning there is a statistical difference in the data for the third lot and enough evidence to reject the null hypothesis for that specific lot. MechaCar needs to look into issues on that lots production in particular to correct issues and get it within the acceptable range. 
 
 ## Study Design: MechaCar vs. Competition 
 To help consumers make an educated decision in regards to purchasing the safest vehicle makes from the safest car manufacturers in the last two years, I have designed a Competitive Study to compare Safety Ratings between vehicle Manufacturers and vehicle make. This would allow consumers to at a glance, find the safest car for their needs.
